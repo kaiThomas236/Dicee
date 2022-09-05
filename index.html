@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dicee</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <!-- below Bootstrap means it overrides Bootstrap -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+  <body>
+
+    <section id="title">
+      <div class="header">
+        <h1>The Dicee Game</h1>
+      </div>
+    </section>
+
+    <section id="dice">
+      <div class="container">
+        <div class="row">
+
+          <div class="dice col">
+            <p>Player 1</p>
+          </div>
+        
+          <div class="dice col">
+            <p>Player 2</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="dice col">
+            <img id="img1" src="images/dice1.png">
+          </div>
+          
+          <div class="dice col">
+            <img id="img2" src="images/dice1.png">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="dice col">
+            <button onclick="rollDice(1)" type="button" class="btn btn-outline-light btn-lg btn-block roll-button">Player 1: Click to Roll!</button>
+          </div>
+          
+          <div class="dice col">
+            <button onclick="rollDice(2)" type="button" class="btn btn-outline-light btn-lg btn-block roll-button">Player 2: Click to Roll!</button>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+  </body>
+
+  <footer>
+    <ul>
+      <li>www 🎲 App Brewery 🎲 com</li>
+      <li>Kai Thomas</li>
+    </ul>
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</html>
+
+
+
