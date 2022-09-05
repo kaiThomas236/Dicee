@@ -1,18 +1,21 @@
 /******************************THEME DETAILS******************************/
-
+/* font-family: 'Kalam', cursive; */
+/* font-family: 'Merienda', cursive; */
+/* #4ECCA3 #f8f9fa #EEEEEE #9c060c */
 
 /******************************TAG SELECTORS******************************/
 
 body {
   background-color: #393E46;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
   color:#4ECCA3;
 }
 
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
+  margin: 40px;
+  font-family: 'Merienda', cursive;
+  font-weight: 700;
   font-size: 8rem;
 }
 
@@ -21,7 +24,7 @@ p {
 }
 
 img {
-  width: 70%;
+  width: 60%;
 }
 
 footer {
