@@ -1,2 +1,4 @@
 # Dicee
-the Dicee Game, play with a friend!  https://kaithomas236.github.io/Dicee/
+https://kaithomas236.github.io/Dicee/
+
+the Dicee Game, play with a friend!  
